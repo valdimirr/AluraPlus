@@ -165,3 +165,35 @@ margin-top: 1em;
     color: var(--cinza-secundario);
     font-size: 14px;
 }
+
+@media (max-width: 1020px) {
+     .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5em;
+        text-align: center;
+    }
+
+    .principal {
+        background-image: none;
+    }
+
+    .telas {
+        flex-direction: column-reverse;
+    }
+
+    .secundario__imagem {
+        margin-left: 0%;
+    }
+
+    .notebook {
+        margin-top: 40em;
+        margin-bottom: 10em;
+    }
+
+    .dispositivos__lista {
+        flex-direction: column;
+    }
+   
+}
